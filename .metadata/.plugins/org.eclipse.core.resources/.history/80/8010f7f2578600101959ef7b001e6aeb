@@ -1,0 +1,44 @@
+package com.example.demo.security;
+
+import java.util.Collections;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.stereotype.Service;
+
+import com.example.demo.repository.KorisnikRepository;
+
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
+import org.springframework.security.core.userdetails.User;
+
+import model.Korisnik;
+
+@Service
+public class CustomUserDetailsService implements UserDetailsService {
+
+	@Autowired
+    private KorisnikRepository korisnikRepository;
+
+    @Override
+    public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
+        Korisnik k = korisnikRepository.findByEmail(email);
+
+        if (k == null) {
+            throw new UsernameNotFoundException("Korisnik sa email-om " + email + " nije pronađen!");
+        }
+
+        // Uzimamo ulogu iz entiteta
+        GrantedAuthority authority = new SimpleGrantedAuthority("ROLE_" + k.getUloga().getNaziv());
+
+        // Vraćamo Spring Security User objekat
+        return new User(
+                k.getEmail(),
+                k.getLozinka(),
+                Collections.singletonList(authority)
+        );
+    }
+}
+
