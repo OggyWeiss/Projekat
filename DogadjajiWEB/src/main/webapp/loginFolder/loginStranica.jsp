@@ -63,9 +63,9 @@ button:hover {
 <body>
 	<div class="login-container">
 		<h2>Uloguj se</h2>
-		<form action="/Dogadjaji/loginController/login" method="post">
-			<input type="text" name="email" placeholder="Email" required>
-			<input type="password" name="lozinka" placeholder="Lozinka" required>
+		<form action="${pageContext.request.contextPath}/login" method="post">
+			<input type="text" name="username" placeholder="Email" required>
+			<input type="password" name="password" placeholder="Lozinka" required>
 			<button type="submit">Uloguj se</button>
 		</form>
 

@@ -12,19 +12,19 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
 @Controller
-@RequestMapping("/registracijaController")
+@RequestMapping("/registracijaController/")
 public class RegistracijaController {
 
     @Autowired
     private KorisnikService korisnikService;
 
-    @GetMapping("/registracija")
+    @GetMapping("registracija")
     public String prikaziFormu(Model model) {
         model.addAttribute("korisnikDTO", new KorisnikDTO());
         return "loginFolder/registracijaStranica";
     }
 
-    @PostMapping("/registracija")
+    @PostMapping("registracija")
     public String registracija(
             @Valid @ModelAttribute("korisnikDTO") KorisnikDTO dto,
             BindingResult bindingResult,

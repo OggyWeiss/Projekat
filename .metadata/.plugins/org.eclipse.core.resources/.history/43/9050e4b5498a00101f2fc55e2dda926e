@@ -1,0 +1,37 @@
+//package com.example.demo.security;
+//
+//import org.springframework.beans.factory.annotation.Autowired;
+//import org.springframework.security.core.userdetails.UserDetails;
+//import org.springframework.security.core.userdetails.UserDetailsService;
+//import org.springframework.security.core.userdetails.UsernameNotFoundException;
+//import org.springframework.stereotype.Service;
+//
+//import com.example.demo.repository.KorisnikRepository;
+//
+//
+//import model.Korisnik;
+//
+//@Service
+//public class CustomUserDetailsService implements UserDetailsService {
+//
+//	@Autowired
+//    private KorisnikRepository korisnikRepository;
+//
+//    public CustomUserDetailsService(KorisnikRepository korisnikRepository2) {
+//		this.korisnikRepository = korisnikRepository2;
+//	}
+//
+//	@Override
+//    public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
+//        Korisnik k = korisnikRepository.findByEmail(email);
+//
+//        if (k == null) {
+//            throw new UsernameNotFoundException("Korisnik sa email-om " + email + " nije pronađen!");
+//        }
+//        
+//        UserDetails ud = new CustomUserDetail(k);
+//        System.out.println("Napravio customUserDetail");
+//        return ud;
+//    }
+//}
+//

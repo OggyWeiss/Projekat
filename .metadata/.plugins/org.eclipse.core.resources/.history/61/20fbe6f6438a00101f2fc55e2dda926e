@@ -1,0 +1,61 @@
+package com.example.demo.service;
+
+import com.example.demo.DTO.KorisnikDTO;
+import com.example.demo.repository.KorisnikRepository;
+import com.example.demo.repository.UlogaRepository;
+
+import model.Korisnik;
+import model.Uloga;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.stereotype.Service;
+
+@Service
+public class KorisnikService {
+
+    @Autowired
+    KorisnikRepository korisnikRepository;
+    
+    @Autowired
+    PasswordEncoder passwordEncoder;
+    
+    @Autowired
+    UlogaRepository ulogarep;
+    
+    public boolean registrujKorisnika(KorisnikDTO dto) {
+
+        Korisnik k = new Korisnik();
+        k.setIme(dto.getIme());
+        k.setPrezime(dto.getPrezime());
+        k.setEmail(dto.getEmail());
+        k.setLozinka(dto.getLozinka());
+       
+        Uloga uloga = ulogarep.findByNaziv(dto.getUloga());
+        if (uloga == null) {
+            return false; 
+        }
+        k.setUloga(uloga);
+
+        korisnikRepository.save(k);
+        return true;
+    }
+
+//    public Korisnik login(String email, String lozinka) {
+//        Korisnik k = korisnikRepository.findByEmail(email);
+//        if (k != null && k.getLozinka().equals(lozinka)) {
+//            return k;
+//        }
+//        return null;
+//    }
+
+	public List<Korisnik> findAll() {
+		return korisnikRepository.findAll();
+	}
+
+	public Korisnik findById(int idPrimaoca) {
+		return korisnikRepository.findById(idPrimaoca).get();
+	}
+}

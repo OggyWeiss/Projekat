@@ -10,6 +10,7 @@ import model.Uloga;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -17,6 +18,9 @@ public class KorisnikService {
 
     @Autowired
     KorisnikRepository korisnikRepository;
+    
+    @Autowired
+    PasswordEncoder passwordEncoder;
     
     @Autowired
     UlogaRepository ulogarep;
@@ -27,7 +31,7 @@ public class KorisnikService {
         k.setIme(dto.getIme());
         k.setPrezime(dto.getPrezime());
         k.setEmail(dto.getEmail());
-        k.setLozinka(dto.getLozinka());
+        k.setLozinka(passwordEncoder.encode(dto.getLozinka()));
        
         Uloga uloga = ulogarep.findByNaziv(dto.getUloga());
         if (uloga == null) {
