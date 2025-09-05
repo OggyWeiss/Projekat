@@ -21,7 +21,7 @@ public class LoginController {
     @Autowired
     private KorisnikService korisnikService;
 
-    @GetMapping("loginStranica")
+    @GetMapping("prikazLogina")
     public String prikaziLoginFormu() {
         return "loginFolder/loginStranica";
     }

@@ -22,16 +22,16 @@ public class SecurityConfig {
     SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
             .authorizeHttpRequests(requests -> requests
-                .requestMatchers("/", "/index.html", "/loginController/**", "/loginStranica/**").permitAll()
+                .requestMatchers("/", "/index.html", "/loginController/**", "/prikazLogina/**", "/loginFolder/**", "/registracijaController/**").permitAll()
                 .requestMatchers("/administratorController/**").hasRole("ADMIN")
                 .requestMatchers("/dogadjajController/**").hasRole("KORISNIK")
                 .requestMatchers("/porukaController/**").hasRole("KORISNIK")
                 .anyRequest().authenticated()
             )
             .formLogin(form -> form
-                .loginPage("/loginFolder/loginStranica.jsp").permitAll()
+                .loginPage("/loginFolder/loginStranica.jsp")
                 .loginProcessingUrl("/login") 
-                .defaultSuccessUrl("/loginController/preusmeriNakonLogin", true)
+                .defaultSuccessUrl("/loginController/preusmeriNakonLogin", false)
 //                .permitAll()
             )
             .logout(logout -> logout
