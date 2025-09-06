@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <title>Početna - EventHub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #74b9ff, #a29bfe);
+            text-align: center;
+            padding: 50px;
+            margin: 0;
+            min-height: 100vh;
+        }
+        h1 {
+            color: white;
+            margin-bottom: 40px;
+        }
+        .btn-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        a.button {
+            background-color: #0984e3;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 18px;
+            transition: 0.3s;
+            width: 250px;
+            text-align: center;
+        }
+        a.button:hover {
+            background-color: #0652dd;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dobrodošli u EventHub</h1>
+    <div class="btn-container">
+        <a href="/Dogadjaji/dogadjajController/redirectToPregled" class="button">Pregled događaja</a>
+        <a href="/Dogadjaji/dogadjajController/redirectToPretraga" class="button">Pretraga događaja</a>
+        <a href="/Dogadjaji/registracijaController/registracija" class="button">Registracija</a>
+        <a href="/Dogadjaji/loginController/prikazLogina" class="button">Login</a>
+    </div>
+</body>
+</html>

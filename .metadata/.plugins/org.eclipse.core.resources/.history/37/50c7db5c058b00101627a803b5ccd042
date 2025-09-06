@@ -1,0 +1,111 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <title>Odjava sa događaja</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #74b9ff, #a29bfe);
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        h2 {
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 90%;
+            max-width: 900px;
+            margin-bottom: 30px;
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #0984e3;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f4f4f4;
+        }
+
+        tr:hover {
+            background-color: #dfe6e9;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .submit-btn {
+            padding: 12px 25px;
+            background-color: #d9534f;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .submit-btn:hover {
+            background-color: #c9302c;
+        }
+
+        .checkbox-center {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>Odjava sa događaja</h2>
+
+    <form method="post" action="/Dogadjaji/dogadjajController/odjaviSe">
+        <table>
+            <thead>
+                <tr>
+                    <th>Selektuj</th>
+                    <th>Naziv događaja</th>
+                    <th>Datum</th>
+                    <th>Opis</th>
+                </tr>
+            </thead>
+            <tbody>
+                <c:forEach var="dogadjaj" items="${dogadjaji}">
+                    <tr>
+                        <td class="checkbox-center">
+                            <input type="checkbox" name="odabraniDogadjaji" value="${dogadjaj.idDogadjaj}">
+                        </td>
+                        <td>${dogadjaj.naziv}</td>
+                        <td><fmt:formatDate value="${dogadjaj.datum}" pattern="yyyy-MM-dd"/></td>
+                        <td>${dogadjaj.opis}</td>
+                    </tr>
+                </c:forEach>
+            </tbody>
+        </table>
+
+        <input type="submit" value="Odjavi se" class="submit-btn"/>
+    </form>
+</body>
+</html>

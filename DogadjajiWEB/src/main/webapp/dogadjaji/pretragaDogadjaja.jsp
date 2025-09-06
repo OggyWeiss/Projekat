@@ -95,8 +95,8 @@
 <body>
     <h1>Pretraga događaja</h1>
 
-    <!-- Forma za pretragu -->
-    <form action="/Dogadjaji/dogadjajController/pretraga" method="get"> 
+    
+    <form action="/Dogadjaji/nelogovanController/pretraga" method="get"> 
         Naziv dogadjaja:
         <input type="text" id="naziv" name="naziv">
 

@@ -46,6 +46,11 @@ public class AdministratorController {
 		return "administrator/brojPrijava";
 	}
 	
+	@GetMapping("administratorHome")
+	public String adminHome() {
+		return "administrator/administratorHome";
+	}
+	
 	@GetMapping("pregledDogadjaja")
 	public String otvoriDogadjaj(Model m) {
 		List<Dogadjaj> dogadjaji = ds.getDogadjaji();

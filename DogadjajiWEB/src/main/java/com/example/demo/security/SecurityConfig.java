@@ -22,7 +22,7 @@ public class SecurityConfig {
     SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
             .authorizeHttpRequests(requests -> requests
-                .requestMatchers("/", "/index.html", "/loginController/**", "/prikazLogina/**", "/loginFolder/**", "/registracijaController/**").permitAll()
+                .requestMatchers("/", "/index.html", "/loginController/**", "/prikazLogina/**", "/loginFolder/**", "/registracijaController/**", "/nelogovanController/**", "/dogadjaji/**").permitAll()
                 .requestMatchers("/administratorController/**").hasRole("ADMIN")
                 .requestMatchers("/dogadjajController/**").hasRole("KORISNIK")
                 .requestMatchers("/porukaController/**").hasRole("KORISNIK")
@@ -32,11 +32,11 @@ public class SecurityConfig {
                 .loginPage("/loginFolder/loginStranica.jsp")
                 .loginProcessingUrl("/login") 
                 .defaultSuccessUrl("/loginController/preusmeriNakonLogin", false)
-//                .permitAll()
+
             )
             .logout(logout -> logout
                 .logoutSuccessUrl("/loginController/odjava")
-//                .permitAll()
+
             )
             .exceptionHandling(handling -> handling
                 .accessDeniedPage("/jsp/access_denied.jsp")

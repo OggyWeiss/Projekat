@@ -41,25 +41,6 @@ h1 {
 	font-size: 1.2rem;
 	cursor: pointer;
 	text-align: center;
-	flex: 1 1 150px;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
-	transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-	background-color: #e17055;
-}
-
-.btn {
-	background-color: #d63031;
-	color: white;
-	padding: 15px 40px;
-	border: none;
-	border-radius: 8px;
-	text-decoration: none;
-	font-size: 1.2rem;
-	cursor: pointer;
-	text-align: center;
 	flex: 1 1 200px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
 	transition: background-color 0.3s ease;
@@ -67,15 +48,33 @@ h1 {
 	align-items: center;
 	justify-content: center;
 }
+
+.btn:hover {
+	background-color: #e17055;
+}
+
+.logout-btn {
+	background-color: black;
+}
+.logout-btn:hover {
+	background-color: #333;
+}
 </style>
 </head>
 <body>
 	<h1>Dobrodošli, ${ulogovaniKorisnik.ime}!</h1>
 	<div class="btn-container">
-		<a href="/Dogadjaji/administratorController/pregledKorisnika"class="btn">Pregled korisnika</a> 
-		<a href="/Dogadjaji/administratorController/pregledDogadjaja"class="btn">Pregled događaja</a> 
+		<a href="/Dogadjaji/administratorController/pregledKorisnika" class="btn">Pregled korisnika</a> 
+		<a href="/Dogadjaji/administratorController/pregledDogadjaja" class="btn">Pregled događaja</a> 
 		<a href="/Dogadjaji/administratorController/brojDogadjaja" class="btn">Broj događaja - izveštaj</a> 
 		<a href="/Dogadjaji/administratorController/brojPrijava" class="btn">Broj korisnika prijavljenih na događaj - izveštaj</a>
+	</div>
+
+	
+	<div class="btn-container" style="margin-top: 30px;">
+		<form action="/Dogadjaji/loginController/odjava" method="get" style="width: 100%; display: flex; justify-content: center;">
+			<button type="submit" class="btn logout-btn">Logout</button>
+		</form>
 	</div>
 </body>
 </html>

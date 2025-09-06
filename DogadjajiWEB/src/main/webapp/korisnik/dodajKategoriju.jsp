@@ -11,6 +11,7 @@ body {
 	font-family: Arial, sans-serif;
 	background-color: #f8f8f8;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
@@ -65,22 +66,44 @@ button:hover {
 	margin-bottom: 15px;
 	display: block;
 }
+
+
+.back-btn {
+	margin-top: 20px;
+	padding: 10px 20px;
+	background-color: #6c757d;
+	color: white;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	font-size: 15px;
+	transition: background-color 0.3s ease;
+}
+.back-btn:hover {
+	background-color: #5a6268;
+}
 </style>
 </head>
 <body>
 
-	<form:form action="/Dogadjaji/dogadjajController/sacuvajKategoriju"
-		method="post" modelAttribute="kategorijaDTO">
-		<h1>Dodaj kategoriju</h1>
+	<div class="form-container">
+		<form:form action="/Dogadjaji/dogadjajController/sacuvajKategoriju"
+			method="post" modelAttribute="kategorijaDTO">
+			<h1>Dodaj kategoriju</h1>
 
-		<label for="naziv">Naziv kategorije</label>
-		<form:input path="naziv" id="naziv"
-			placeholder="Unesite naziv kategorije" />
-		<form:errors path="naziv" cssClass="error" />
+			<label for="naziv">Naziv kategorije</label>
+			<form:input path="naziv" id="naziv"
+				placeholder="Unesite naziv kategorije" />
+			<form:errors path="naziv" cssClass="error" />
 
-		<button type="submit">Sačuvaj</button>
-	</form:form>
+			<button type="submit">Sačuvaj</button>
+		</form:form>
+	</div>
 
+	
+	<form action="/Dogadjaji/dogadjajController/korisnikHome" method="get">
+		<button type="submit" class="back-btn">Nazad na početnu</button>
+	</form>
 
 </body>
 </html>

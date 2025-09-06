@@ -60,5 +60,12 @@
         <a href="/Dogadjaji/porukaController/slanjePoruke" class="btn">Slanje poruka</a>
         <a href="/Dogadjaji/dogadjajController/dodajKomentar" class="btn">Dodaj komentar</a>
     </div>
+
+    
+    <div class="btn-container" style="margin-top: 30px;">
+        <form action="/Dogadjaji/loginController/odjava" method="get" style="width: 100%; display: flex; justify-content: center;">
+            <button type="submit" class="btn" style="background-color: black; width: 250px;">Logout</button>
+        </form>
+    </div>
 </body>
 </html>

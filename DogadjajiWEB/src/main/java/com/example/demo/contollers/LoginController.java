@@ -51,29 +51,4 @@ public class LoginController {
         return "loginFolder/loginStranica";
     }
     
-// metoda namenjena ukoliko ne postoji Spring security
-//    @PostMapping("login") 
-//    public String login(@RequestParam String username,
-//                        @RequestParam String password,
-//                        HttpSession session,
-//                        Model model) {
-//
-//        Korisnik k = korisnikService.login(username, password);
-//
-//        if (k == null) {
-//            model.addAttribute("greska", "Pogrešan email ili lozinka!");
-//            return "loginFolder/loginStranica";
-//        }
-//
-//        session.setAttribute("ulogovaniKorisnik", k);
-//
-//        if ("ADMIN".equals(k.getUloga().getNaziv())) {
-//            return "administrator/administratorHome";
-//        } else {
-//            return "korisnik/korisnikHome";
-//        }
-//    }
-    
-    
-
 }

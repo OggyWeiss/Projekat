@@ -59,6 +59,22 @@ th {
 .btn:hover {
     background-color: #0652dd;
 }
+
+.back-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-btn:hover {
+    background-color: #5a6268;
+}
 </style>
 </head>
 <body>
@@ -87,5 +103,10 @@ th {
             </c:forEach>
         </tbody>
     </table>
+
+    
+    <form action="/Dogadjaji/dogadjajController/korisnikHome" method="get">
+        <button type="submit" class="back-btn">Nazad na početnu</button>
+    </form>
 </body>
 </html>

@@ -11,12 +11,17 @@
             font-family: Arial, sans-serif;
             background: #f0f2f5;
             padding: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         table {
             width: 100%;
+            max-width: 900px;
             border-collapse: collapse;
             background: white;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
         }
         th, td {
             padding: 12px 15px;
@@ -42,6 +47,20 @@
         }
         .btn-izmeni:hover {
             background-color: #0d6efd;
+        }
+        .back-btn {
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #6c757d;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 0.95rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .back-btn:hover {
+            background-color: #5a6268;
         }
     </style>
 </head>
@@ -73,5 +92,10 @@
             </c:forEach>
         </tbody>
     </table>
+
+    
+    <form action="/Dogadjaji/dogadjajController/korisnikHome" method="get">
+        <button type="submit" class="back-btn">Nazad na početnu</button>
+    </form>
 </body>
 </html>

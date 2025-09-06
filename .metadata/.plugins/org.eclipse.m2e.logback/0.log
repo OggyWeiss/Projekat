@@ -6441,3 +6441,161 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: in comment 
 2025-09-05 14:08:32,644 [Worker-42: Launching DogadjajiWEB - DogadjajiWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DogadjajiJPA: DogadjajiJPA:DogadjajiJPA:0.0.1-SNAPSHOT with classifier null to /DogadjajiJPA/target/classes
 2025-09-05 14:08:32,729 [Worker-42: Launching DogadjajiWEB - DogadjajiWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DogadjajiJPA: DogadjajiJPA:DogadjajiJPA:0.0.1-SNAPSHOT with classifier null to /DogadjajiJPA/target/classes
 2025-09-05 14:08:32,816 [Worker-42: Launching DogadjajiWEB - DogadjajiWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DogadjajiJPA: DogadjajiJPA:DogadjajiJPA:0.0.1-SNAPSHOT with classifier null to /DogadjajiJPA/target/classes
+2025-09-06 11:09:12,409 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-09-06 11:10:22,660 [Worker-23: Check for devtools] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DogadjajiJPA: DogadjajiJPA:DogadjajiJPA:0.0.1-SNAPSHOT with classifier  to /DogadjajiJPA/target/classes
+2025-09-06 11:10:27,641 [Worker-0: Launching DogadjajiWEB - DogadjajiWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DogadjajiJPA: DogadjajiJPA:DogadjajiJPA:0.0.1-SNAPSHOT with classifier null to /DogadjajiJPA/target/classes
+2025-09-06 11:10:27,741 [Worker-0: Launching DogadjajiWEB - DogadjajiWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DogadjajiJPA: DogadjajiJPA:DogadjajiJPA:0.0.1-SNAPSHOT with classifier null to /DogadjajiJPA/target/classes
+2025-09-06 11:10:27,833 [Worker-0: Launching DogadjajiWEB - DogadjajiWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DogadjajiJPA: DogadjajiJPA:DogadjajiJPA:0.0.1-SNAPSHOT with classifier null to /DogadjajiJPA/target/classes
+2025-09-06 11:12:41,568 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-06 11:12:41,578 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-09-06 11:12:41,582 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 11:12:58,394 [Worker-9: Launching DogadjajiWEB - DogadjajiWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DogadjajiJPA: DogadjajiJPA:DogadjajiJPA:0.0.1-SNAPSHOT with classifier null to /DogadjajiJPA/target/classes
+2025-09-06 11:12:58,486 [Worker-9: Launching DogadjajiWEB - DogadjajiWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DogadjajiJPA: DogadjajiJPA:DogadjajiJPA:0.0.1-SNAPSHOT with classifier null to /DogadjajiJPA/target/classes
+2025-09-06 11:12:58,577 [Worker-9: Launching DogadjajiWEB - DogadjajiWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DogadjajiJPA: DogadjajiJPA:DogadjajiJPA:0.0.1-SNAPSHOT with classifier null to /DogadjajiJPA/target/classes
+2025-09-06 11:13:33,711 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-06 11:13:33,715 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-09-06 11:13:33,718 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 11:15:42,285 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-06 11:15:42,290 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-09-06 11:15:42,294 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 11:20:51,873 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 11:20:51,874 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 11:20:51,875 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 11:20:53,978 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-06 11:20:53,987 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-09-06 11:20:53,989 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 11:21:12,368 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 11:21:12,369 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 11:21:12,370 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 11:21:52,774 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-06 11:21:52,777 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-09-06 11:21:52,778 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 11:22:23,542 [Worker-11: Launching DogadjajiWEB - DogadjajiWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DogadjajiJPA: DogadjajiJPA:DogadjajiJPA:0.0.1-SNAPSHOT with classifier null to /DogadjajiJPA/target/classes
+2025-09-06 11:22:23,638 [Worker-11: Launching DogadjajiWEB - DogadjajiWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DogadjajiJPA: DogadjajiJPA:DogadjajiJPA:0.0.1-SNAPSHOT with classifier null to /DogadjajiJPA/target/classes
+2025-09-06 11:22:23,729 [Worker-11: Launching DogadjajiWEB - DogadjajiWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DogadjajiJPA: DogadjajiJPA:DogadjajiJPA:0.0.1-SNAPSHOT with classifier null to /DogadjajiJPA/target/classes
+2025-09-06 11:23:37,243 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-06 11:23:37,246 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-09-06 11:23:37,248 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 11:23:41,293 [Worker-31: Launching DogadjajiWEB - DogadjajiWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DogadjajiJPA: DogadjajiJPA:DogadjajiJPA:0.0.1-SNAPSHOT with classifier null to /DogadjajiJPA/target/classes
+2025-09-06 11:23:41,379 [Worker-31: Launching DogadjajiWEB - DogadjajiWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DogadjajiJPA: DogadjajiJPA:DogadjajiJPA:0.0.1-SNAPSHOT with classifier null to /DogadjajiJPA/target/classes
+2025-09-06 11:23:41,467 [Worker-31: Launching DogadjajiWEB - DogadjajiWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DogadjajiJPA: DogadjajiJPA:DogadjajiJPA:0.0.1-SNAPSHOT with classifier null to /DogadjajiJPA/target/classes
+2025-09-06 11:32:43,413 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 11:32:43,414 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 11:32:43,415 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 11:33:14,835 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 11:33:14,836 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 11:33:14,837 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 11:33:21,130 [Worker-9: Launching DogadjajiWEB - DogadjajiWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DogadjajiJPA: DogadjajiJPA:DogadjajiJPA:0.0.1-SNAPSHOT with classifier null to /DogadjajiJPA/target/classes
+2025-09-06 11:33:21,216 [Worker-9: Launching DogadjajiWEB - DogadjajiWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DogadjajiJPA: DogadjajiJPA:DogadjajiJPA:0.0.1-SNAPSHOT with classifier null to /DogadjajiJPA/target/classes
+2025-09-06 11:33:21,300 [Worker-9: Launching DogadjajiWEB - DogadjajiWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DogadjajiJPA: DogadjajiJPA:DogadjajiJPA:0.0.1-SNAPSHOT with classifier null to /DogadjajiJPA/target/classes
+2025-09-06 11:35:13,890 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 11:35:13,891 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 11:35:13,892 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 11:35:57,188 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 11:35:57,189 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 11:35:57,190 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 11:36:46,194 [Worker-9: Launching DogadjajiWEB - DogadjajiWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DogadjajiJPA: DogadjajiJPA:DogadjajiJPA:0.0.1-SNAPSHOT with classifier null to /DogadjajiJPA/target/classes
+2025-09-06 11:36:46,281 [Worker-9: Launching DogadjajiWEB - DogadjajiWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DogadjajiJPA: DogadjajiJPA:DogadjajiJPA:0.0.1-SNAPSHOT with classifier null to /DogadjajiJPA/target/classes
+2025-09-06 11:36:46,365 [Worker-9: Launching DogadjajiWEB - DogadjajiWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DogadjajiJPA: DogadjajiJPA:DogadjajiJPA:0.0.1-SNAPSHOT with classifier null to /DogadjajiJPA/target/classes
+2025-09-06 11:39:20,182 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 11:39:20,183 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 11:39:20,184 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 11:39:23,651 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 11:39:23,652 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 11:39:23,653 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 11:40:55,169 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 11:40:55,170 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 11:40:55,171 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 11:41:49,425 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 11:41:49,425 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 11:41:49,427 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 11:43:55,388 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 11:43:55,389 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 11:43:55,391 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 11:45:15,435 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 11:45:15,435 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 11:45:15,437 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 11:46:18,817 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 11:46:18,818 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 11:46:18,820 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 11:46:45,019 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 11:46:45,020 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 11:46:45,021 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 11:47:42,139 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 11:47:42,140 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 11:47:42,142 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 11:49:23,041 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 11:49:23,042 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 11:49:23,043 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 11:49:26,783 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 11:49:26,784 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 11:49:26,785 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 11:50:04,804 [Worker-35: Launching DogadjajiWEB - DogadjajiWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DogadjajiJPA: DogadjajiJPA:DogadjajiJPA:0.0.1-SNAPSHOT with classifier null to /DogadjajiJPA/target/classes
+2025-09-06 11:50:04,892 [Worker-35: Launching DogadjajiWEB - DogadjajiWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DogadjajiJPA: DogadjajiJPA:DogadjajiJPA:0.0.1-SNAPSHOT with classifier null to /DogadjajiJPA/target/classes
+2025-09-06 11:50:04,979 [Worker-35: Launching DogadjajiWEB - DogadjajiWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DogadjajiJPA: DogadjajiJPA:DogadjajiJPA:0.0.1-SNAPSHOT with classifier null to /DogadjajiJPA/target/classes
+2025-09-06 11:58:42,386 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-06 11:58:42,389 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-09-06 11:58:42,391 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 11:59:45,415 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 11:59:45,416 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 11:59:45,418 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 12:00:51,834 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 12:00:51,835 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 12:00:51,836 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 12:02:11,468 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 12:02:11,469 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 12:02:11,470 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 12:02:13,808 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 12:02:13,809 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 12:02:13,810 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 12:03:04,800 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 12:03:04,801 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 12:03:04,802 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 12:04:10,154 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 12:04:10,155 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 12:04:10,157 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 12:05:44,705 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 12:05:44,706 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 12:05:44,707 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 12:06:28,551 [Worker-39: Launching DogadjajiWEB - DogadjajiWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DogadjajiJPA: DogadjajiJPA:DogadjajiJPA:0.0.1-SNAPSHOT with classifier null to /DogadjajiJPA/target/classes
+2025-09-06 12:06:28,635 [Worker-39: Launching DogadjajiWEB - DogadjajiWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DogadjajiJPA: DogadjajiJPA:DogadjajiJPA:0.0.1-SNAPSHOT with classifier null to /DogadjajiJPA/target/classes
+2025-09-06 12:06:28,733 [Worker-39: Launching DogadjajiWEB - DogadjajiWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DogadjajiJPA: DogadjajiJPA:DogadjajiJPA:0.0.1-SNAPSHOT with classifier null to /DogadjajiJPA/target/classes
+2025-09-06 12:08:03,827 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 12:08:03,828 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 12:08:03,829 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 12:08:17,423 [Worker-34: Launching DogadjajiWEB - DogadjajiWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DogadjajiJPA: DogadjajiJPA:DogadjajiJPA:0.0.1-SNAPSHOT with classifier null to /DogadjajiJPA/target/classes
+2025-09-06 12:08:17,512 [Worker-34: Launching DogadjajiWEB - DogadjajiWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DogadjajiJPA: DogadjajiJPA:DogadjajiJPA:0.0.1-SNAPSHOT with classifier null to /DogadjajiJPA/target/classes
+2025-09-06 12:08:17,596 [Worker-34: Launching DogadjajiWEB - DogadjajiWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DogadjajiJPA: DogadjajiJPA:DogadjajiJPA:0.0.1-SNAPSHOT with classifier null to /DogadjajiJPA/target/classes
+2025-09-06 12:16:52,083 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 12:16:52,083 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 12:16:52,084 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 12:18:08,174 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 12:18:08,175 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 12:18:08,176 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 12:19:40,819 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-06 12:19:40,823 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-09-06 12:19:40,824 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 12:22:21,220 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-06 12:22:21,223 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-09-06 12:22:21,224 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 12:26:36,954 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 12:26:36,955 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 12:26:36,956 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 12:26:54,056 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 12:26:54,057 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 12:26:54,058 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 12:27:22,311 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 12:27:22,313 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 12:27:22,314 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 12:27:40,604 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 12:27:40,605 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 12:27:40,606 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 12:28:14,029 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 12:28:14,030 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 12:28:14,031 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 12:28:49,211 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 12:28:49,212 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 12:28:49,213 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Ognjen\Desktop\Projekat\DogadjajiWEB\src\test\resources
+2025-09-06 12:31:45,897 [Worker-37: Launching DogadjajiWEB - DogadjajiWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DogadjajiJPA: DogadjajiJPA:DogadjajiJPA:0.0.1-SNAPSHOT with classifier null to /DogadjajiJPA/target/classes
+2025-09-06 12:31:45,983 [Worker-37: Launching DogadjajiWEB - DogadjajiWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DogadjajiJPA: DogadjajiJPA:DogadjajiJPA:0.0.1-SNAPSHOT with classifier null to /DogadjajiJPA/target/classes
+2025-09-06 12:31:46,068 [Worker-37: Launching DogadjajiWEB - DogadjajiWebApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DogadjajiJPA: DogadjajiJPA:DogadjajiJPA:0.0.1-SNAPSHOT with classifier null to /DogadjajiJPA/target/classes

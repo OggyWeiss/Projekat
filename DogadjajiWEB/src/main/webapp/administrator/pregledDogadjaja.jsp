@@ -10,9 +10,9 @@
             background-color: #f0f6f8;
             margin: 0;
             padding: 0;
+            text-align: center;
         }
         h2 {
-            text-align: center;
             color: #004466;
             margin-top: 20px;
         }
@@ -56,6 +56,17 @@
         button:hover {
             background-color: #c0392b;
         }
+        .back-btn {
+            background-color: #2d3436;
+            margin: 20px auto;
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+        .back-btn:hover {
+            background-color: #636e72;
+        }
     </style>
 </head>
 <body>
@@ -87,6 +98,11 @@
         </c:forEach>
     </tbody>
 </table>
+
+
+<form action="/Dogadjaji/administratorController/administratorHome" method="get">
+    <button type="submit" class="back-btn">Nazad na početnu</button>
+</form>
 
 </body>
 </html>

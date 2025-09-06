@@ -81,7 +81,7 @@
     <form action="/Dogadjaji/dogadjajController/izmeniSacuvaj" method="post">
         <h1>Izmeni događaj</h1>
 
-        <!-- Sakriveno polje za ID događaja -->
+        
         <input type="hidden" name="idDogadjaj" value="${dogadjaj.idDogadjaj}" />
 
         <label for="naziv">Naziv događaja</label>

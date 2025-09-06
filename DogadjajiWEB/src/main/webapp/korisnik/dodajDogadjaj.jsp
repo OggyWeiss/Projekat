@@ -16,6 +16,8 @@ body {
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
+	flex-direction: column;
+	gap: 20px;
 }
 
 form {
@@ -108,6 +110,23 @@ button:hover {
 	background: #2f37e6;
 }
 
+.back-btn {
+	width: 200px;
+	padding: 12px 0;
+	background: #6c757d;
+	border: none;
+	border-radius: 10px;
+	color: white;
+	font-size: 16px;
+	font-weight: 600;
+	cursor: pointer;
+	transition: background 0.25s ease;
+}
+
+.back-btn:hover {
+	background: #5a6268;
+}
+
 .error {
 	color: red;
 	font-size: 0.9rem;
@@ -149,5 +168,9 @@ button:hover {
 		<button type="submit">Sačuvaj</button>
 	</form:form>
 
+	
+	<form action="/Dogadjaji/dogadjajController/korisnikHome" method="get">
+		<button type="submit" class="back-btn">Nazad na početnu</button>
+	</form>
 </body>
 </html>

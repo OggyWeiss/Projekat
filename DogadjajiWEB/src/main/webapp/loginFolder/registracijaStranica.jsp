@@ -89,7 +89,7 @@ button:hover {
 		</form:form>
 
 		<div style="margin-top: 10px;">
-			<a href="/Dogadjaji/loginController/loginStranica">Već imate
+			<a href="/Dogadjaji/loginController/prikazLogina">Već imate
 				nalog? Prijavite se</a>
 		</div>
 	</div>

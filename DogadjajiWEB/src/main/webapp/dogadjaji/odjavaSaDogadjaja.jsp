@@ -72,6 +72,22 @@
             background-color: #c9302c;
         }
 
+        .back-btn {
+            margin-top: 15px;
+            padding: 12px 25px;
+            background-color: #6c757d;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-btn:hover {
+            background-color: #5a6268;
+        }
+
         .checkbox-center {
             display: flex;
             justify-content: center;
@@ -106,6 +122,11 @@
         </table>
 
         <input type="submit" value="Odjavi se" class="submit-btn"/>
+    </form>
+
+    
+    <form action="/Dogadjaji/dogadjajController/korisnikHome" method="get">
+        <button type="submit" class="back-btn">Nazad na početnu</button>
     </form>
 </body>
 </html>
